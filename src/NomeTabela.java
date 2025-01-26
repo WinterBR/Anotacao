@@ -1,11 +1,10 @@
+
+
 public class NomeTabela {
 
-
-    public static final String nome = "Tabela1";
-
-    @Tabela(value = nome)
+    @Tabela(value = "Tabela1")
     public void gerarNome() {
-        System.out.println("A Tabela se chama: " + nome);
+        System.out.println("A Tabela se chama: " + "Tabela1");
     }
 
 }
